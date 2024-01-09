@@ -1,1 +1,3 @@
-.docker/dbdata/
+.docker/
+keycloak/.docker/dbdata/
+authentication-flow/node_modules/

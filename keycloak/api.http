@@ -1,0 +1,19 @@
+###Gerar um access token
+POST http://localhost:8080/realms/Hyrule/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+username=zelda
+&password=zelda@123
+&grant_type=password
+&client_id=hyrule-client
+
+
+###Gerar um access token e id token
+POST http://localhost:8080/realms/Hyrule/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+username=zelda
+&password=zelda@123
+&grant_type=password
+&client_id=hyrule-client
+&scope=openid
